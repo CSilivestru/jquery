@@ -9,6 +9,8 @@ module.exports = function( grunt ) {
 		return data;
 	}
 
+  //Not a real comment
+
 	var gzip = require( "gzip-js" ),
 		srcHintOptions = readOptionalJSON( "src/.jshintrc" );
 
